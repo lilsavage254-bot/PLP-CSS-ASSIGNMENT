@@ -1,0 +1,165 @@
+body {
+    background-color:antiquewhite;
+}
+
+header {
+    background-color :aquamarine;
+    height:200px;
+    text-align :center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    color:brown;
+    padding:10px;
+    margin-top:0px;
+}
+
+.Introduction{
+    background-color: lightblue;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    padding:4px;
+    height:150px;
+    margin:4px;
+    line-height:normal;
+}
+
+h2 {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+.intro {
+    color:blueviolet;
+}
+
+.skills {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    padding:4px;
+    height : 150px;
+    margin : 4px;
+ 
+}
+
+ul {
+    list-style-type: none;
+    
+}
+    
+
+li {
+    display:inline-block;
+    margin: 10px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color:lightsalmon;
+    
+}
+
+.myskills {
+    color:brown;
+    font-size: larger;
+}
+
+.contact {
+    background-color: lightcyan;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    padding:4px;
+    margin: 4px;
+
+}
+
+.border {
+    border-style: solid;
+    border:2px;
+}
+
+.info {
+    color:lightcoral;
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        background-color: aliceblue;
+       
+    }
+
+    .contact {
+        padding: 10px;
+        height:200px;
+    }
+
+    .Introduction {
+        padding: 10px;
+        height:200px;
+    }
+
+    .skills {
+        padding: 10px;
+        height:200px;
+       
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024){
+    body {
+        background-color:lightgoldenrodyellow;
+    }
+
+    .contact {
+        padding: 15px;
+        height:250px;
+    }
+    
+    .Introduction {
+        padding: 15px;
+        height:250px;
+    }
+
+    .skills {
+        padding: 15px;
+        height:250px;
+       
+    }
+}
+
+@media only screen and (min-width : 1024){
+    body {
+        background-color: lightslategray;
+    }
+
+    .contact {
+        padding: 9px;
+        height:150px;
+    }
+
+    .Introduction {
+        padding: 9px;
+        height:150px;
+    }
+
+    .skills {
+        padding: 9px;
+        height:150px;
+       
+    }
+}
